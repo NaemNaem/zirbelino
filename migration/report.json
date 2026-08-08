@@ -1,0 +1,28 @@
+{
+  "generatedAt": "2026-08-08T19:42:00.000Z",
+  "sourceSystem": "zirbenprodukte.at-public",
+  "urlsFound": 31,
+  "productPages": 20,
+  "categoryPages": 5,
+  "contentPages": 6,
+  "products": 20,
+  "categories": 5,
+  "images": 112,
+  "reviews": 87,
+  "productsWithoutPrice": [],
+  "productsWithoutImages": [],
+  "productsWithoutDescription": [],
+  "unrecognizedPages": [],
+  "crawlErrors": [
+    "klassiker-zirbenwuerfel: replaced by zirbenwuerfel-blume-des-lebens-oel",
+    "zirbenkerze: replaced by zirbenduftkerze"
+  ],
+  "redirectCandidates": 31,
+  "possibleDuplicates": [],
+  "notes": [
+    "Demo crawl limited to 20 curated public products across 5 categories.",
+    "18 products via curl crawler + 2 via browser extraction due to intermittent Cloudflare blocks.",
+    "No customers/orders/vouchers/passwords were crawled.",
+    "Architecture remains full-catalog capable for later official imports."
+  ]
+}

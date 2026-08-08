@@ -1,36 +1,108 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Zirbelino – Demo Shop (Version 0.1)
 
-## Getting Started
+## Project Overview
 
-First, run the development server:
+- **Customer / Brand:** Zirbelino® / zirbenprodukte.at
+- **Existing website:** https://www.zirbenprodukte.at/
+- **Goal of this repo:** Pre-sales demo of a modern storefront that can become the production shop after contract
+- **Critical constraint:** Go-live after backend access must be uncomplicated — adapters + validated import, not a rebuild
+
+Current stage:
+
+```text
+Current stage: DEMO / PRE-SALES
+```
+
+## Tech Stack
+
+- Next.js 16 (App Router)
+- React 19
+- TypeScript (strict)
+- Tailwind CSS 4
+- Local demo data JSON under `/data`
+- No payment/email providers active in demo
+
+## Local Development
+
+Required: Node.js 20+ (repo tested with Node 24)
+
+```bash
+npm install
+cp .env.example .env.local
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000).
+
+### Useful scripts
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run build
+npm run lint
+npm run crawl   # public demo import (added with crawler)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Environment Variables
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+See `.env.example`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Variable | Purpose | Required | Mode |
+| -------- | ------- | -------- | ---- |
+| `NEXT_PUBLIC_DEMO_MODE` | Disables real orders/payments/emails | Yes | Demo default `true` |
+| `NEXT_PUBLIC_SITE_URL` | Canonical site URL | Yes | Demo/Prod |
+| `COMMERCE_API_URL` / `COMMERCE_API_KEY` | Future commerce backend | Prod | Optional until go-live |
+| `PAYMENT_*` | Payment provider | Prod | Optional until go-live |
+| `EMAIL_*` | Transactional email | Prod | Optional until go-live |
+| `DATABASE_URL` | Future persistence | Prod | Optional until go-live |
 
-## Learn More
+Never commit secrets.
 
-To learn more about Next.js, take a look at the following resources:
+## Architecture (short)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```text
+Source → Importer → Normalizer → Canonical Model → Repository → Service → UI
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Read:
 
-## Deploy on Vercel
+- `docs/ARCHITECTURE.md`
+- `docs/DEMO_TO_PRODUCTION.md` ← go-live playbook
+- `migration/source-analysis.md` ← likely OpenCart findings
+- `CURSOR_CONTINUATION.md` ← resume instructions
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Demo Mode
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+With `NEXT_PUBLIC_DEMO_MODE=true`:
+
+- no real payments
+- no real emails
+- no remote order writes
+- cart/wishlist local
+- checkout creates demo confirmation only
+
+## Migration / Go-live
+
+Public crawler feeds the demo only.
+
+After customer provides backend data:
+
+1. Choose source adapter (`docs/DEMO_TO_PRODUCTION.md`)
+2. Import + validate counts
+3. Swap demo repositories/services
+4. Apply SEO redirects from `migration/url-map.json`
+5. Set `NEXT_PUBLIC_DEMO_MODE=false`
+
+## Project Structure
+
+```text
+src/domain            Canonical commerce types
+src/repositories      Interfaces + composition root
+src/services          Cart/Checkout/Payment/...
+src/adapters/demo     File-backed demo implementations
+src/importers         Crawler + future source adapters
+data/                 Normalized demo dataset
+migration/            Source analysis, url map, reports
+docs/                 Project documentation
+public/media          Local product media
+```

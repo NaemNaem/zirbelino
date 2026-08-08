@@ -1,0 +1,68 @@
+[
+  {
+    "slug": "zirbenduftkerze",
+    "shopId": "1199",
+    "name": "ZirbenKerze mit Zirbenduft | handgemachte Kerze | bis zu 36 Stunden Brenndauer",
+    "description": "Wir LIEBEN unsere Duftkerze schon so sehr, dass wir sie jeden Tag anzünden. HANDWERK Unsere Zirbenduftkerze wird nach alter Tradition handwerklich gefertigt. ZIRBENKERZE BRENNT BIS ZU 36 STUNDEN Die Zirbenduftkerze besteht aus 100% natürlichem Rapswachs und Bio Zirbenöl.",
+    "sku": "B07QL633VJ",
+    "ean": "9120063798247",
+    "price": 25,
+    "currency": "EUR",
+    "compare": "39,90",
+    "availability": "https://schema.org/InStock",
+    "rating": 4.94,
+    "reviewCount": 316,
+    "delivery": "1-2 Werktage",
+    "images": [
+      "https://www.zirbenprodukte.at/image/catalog/2021_Produktbilder/Kerze/zirbenkerze2025/kerze2-hb2-2025.jpg",
+      "https://www.zirbenprodukte.at/image/catalog/2021_Produktbilder/Kerze/zirbenkerze2025/kerze2-hb3-rueckseite-36std-2025.jpg",
+      "https://www.zirbenprodukte.at/image/catalog/2021_Produktbilder/Kerze/zirbenkerze2025/kerze2-hb1-2025.jpg",
+      "https://www.zirbenprodukte.at/image/catalog/2021_Produktbilder/Kerze/zirbenkerze2025/2xkerze-ab-janine-2025.jpg",
+      "https://www.zirbenprodukte.at/image/catalog/alltagsbilder/kerzen/neu-25/2025-zirbenkerze-5.jpg",
+      "https://www.zirbenprodukte.at/image/catalog/alltagsbilder/kerzen/neu-25/2025-zirbenkerze-4.jpg"
+    ],
+    "metaTitle": "ZirbenDuftkerze | handgemachte Kerze | bis zu 36 Stunden Brenndauer ▷ Zirbelino®",
+    "metaDescription": "Wir lieben unsere Duftkerze schon so sehr, dass wir sie jeden Tag anzünden.",
+    "categoryIds": ["cat-duft", "cat-geschenke"],
+    "flags": { "bestseller": true, "sale": true, "featured": true },
+    "reviews": [
+      {
+        "author": "Nicole G.",
+        "body": "Schönes Produkt, rribungslose Abwicklung und schneller Versand 👍",
+        "date": "2026-08-05T07:35:37+02:00",
+        "rating": 5
+      },
+      {
+        "author": "Dirk A.",
+        "body": "Nicht das erste Mal bestellt. Wieder eine schnelle Lieferung und nette Hinweise vom Kundenservice für einen schnellen Erhalt der Ware. Die Produkte sind von sehr guter Qualität. Kann ich nur weiterempfehlen.",
+        "date": "2026-07-19T12:17:51+02:00",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "slug": "zirbenwuerfel-blume-des-lebens-oel",
+    "shopId": "2160",
+    "name": "ZirbenWürfel | Blume des Lebens | 7x7x8cm + 10g Zirbenspäne + Bio Zirbenöl (10ml)",
+    "description": "Dieser ZirbenWürfel wird aus MASSIVEM ZIRBENHOLZ gefertigt. Auf der Oberseite befindet sich eine präzise Lasergravur des Motivs „BLUME DES LEBENS“. Die Oberfläche bleibt naturbelassen und offenporig.",
+    "sku": "2160",
+    "ean": "9120115385401",
+    "price": 34.9,
+    "currency": "EUR",
+    "availability": "https://schema.org/InStock",
+    "delivery": "1-2 Werktage",
+    "images": [
+      "https://www.zirbenprodukte.at/image/catalog/2021_Produktbilder/2.Zirbenfreunde/Wuerfel/bdl-badl/wuerfel-bdl-kartonoel-hb1-2026.png",
+      "https://www.zirbenprodukte.at/image/catalog/alltagsbilder/wuerfel/gravuren/2026-wuerfel-oel-blume-12.jpg",
+      "https://www.zirbenprodukte.at/image/catalog/alltagsbilder/wuerfel/2025-zirbenwuerfel.jpg",
+      "https://www.zirbenprodukte.at/image/catalog/2021_Produktbilder/2.Zirbenfreunde/Wuerfel/bdl-badl/wuerfel-bdl-hb1-2026.png",
+      "https://www.zirbenprodukte.at/image/catalog/2021_Produktbilder/2.Zirbenfreunde/Wuerfel/wuerfel-abmessung-2024.jpg",
+      "https://www.zirbenprodukte.at/image/catalog/alltagsbilder/bilder-mit-text/beschreibung-zirbenspaene-1.jpg"
+    ],
+    "metaTitle": "ZirbenWürfel | Blume des Lebens | 7x7x8cm + 10g Zirbenspäne + Bio Zirbenöl (10ml) ▷ Zirbelino®",
+    "metaDescription": "Massiver ZirbenWürfel (7x7x8 cm) mit Gravur „Blume des Lebens“. Inklusive 10g Zirbenspäne und Bio Zirbenöl.",
+    "categoryIds": ["cat-duft", "cat-geschenke"],
+    "flags": { "new": true, "featured": true },
+    "reviews": []
+  }
+]

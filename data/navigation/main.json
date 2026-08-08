@@ -1,0 +1,11 @@
+[
+  { "id": "shop", "label": "Shop", "href": "/shop" },
+  { "id": "angebote", "label": "Sale", "href": "/shop?sale=1" },
+  { "id": "kissen", "label": "Kissen", "href": "/kategorie/schlafen" },
+  { "id": "spaene", "label": "Späne & Öl", "href": "/kategorie/wohnen-duft" },
+  { "id": "natur", "label": "Zapfen & Bäume", "href": "/kategorie/natur-garten" },
+  { "id": "geschenke", "label": "Geschenke", "href": "/kategorie/geschenke" },
+  { "id": "zirbe", "label": "Die Zirbe", "href": "/die-zirbe" },
+  { "id": "hilfe", "label": "Hilfe", "href": "/faq" },
+  { "id": "kontakt", "label": "Kontakt", "href": "/kontakt" }
+]

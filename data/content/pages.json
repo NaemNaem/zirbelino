@@ -1,0 +1,200 @@
+[
+  {
+    "id": "page-ueber-zirbelino",
+    "slug": "ueber-zirbelino",
+    "title": "Über Zirbelino",
+    "excerpt": "Vom Tischler-Enkel zur eigenen Zirbenwelt: Zirbelino verbindet Zirbenholz, Handwerk und regionale Fertigung aus Kärnten.",
+    "body": "Servus aus Kärnten!\n\nUnsere Kärntner Tischlerei ist auf die Herstellung hochwertiger Zirbenprodukte spezialisiert. Mit jahrzehntelanger Erfahrung unserer Tischler und einem starken Fokus auf Nachhaltigkeit und Regionalität entwickeln wir Produkte rund um die Zirbe – von Kissen und Spänen bis zu Massivholz, Öl und Geschenkideen.\n\nGegründet von Daniel Abart, der seine Leidenschaft für die Zirbe schon in der Tischlerei seines Opas entdeckte, ist Zirbelino heute einer der führenden Anbieter in Österreich und Deutschland. Was als kleiner Stand auf Weihnachtsmärkten begann, ist zu einem spezialisierten Zirbenshop mit eigener Fertigung gewachsen.\n\nUnser Ziel: den Duft und das Lebensgefühl der Alpen in jedes Zuhause bringen – echt, ehrlich und mit Herz. Dabei legen wir Wert auf ausgewählte Materialien, sorgfältige Verarbeitung und nachvollziehbare Herkunft.\n\nBekannt aus TV & Fernsehen – und getragen von vielen positiven Firmen- und Produktbewertungen bei Trusted Shops und Google.\n\nHinweis: Eine wissenschaftlich belegte gesundheitliche Wirkung von Zirbenholz ist nicht nachgewiesen. Wir sprechen bewusst über Duft, Material, Herkunft und Handwerk.",
+    "type": "about",
+    "seo": {
+      "title": "Über uns | Zirbelino",
+      "description": "Entdecken Sie ZIRBELINO, Ihr Kärntner Spezialist für hochwertige Zirbenprodukte. Nachhaltigkeit und handwerkliche Qualität stehen bei uns im Fokus.",
+      "canonicalUrl": "https://www.zirbenprodukte.at/ueber-uns"
+    },
+    "source": {
+      "system": "zirbenprodukte.at-public",
+      "originalUrl": "https://www.zirbenprodukte.at/ueber-uns",
+      "importedAt": "2026-08-08T20:10:00.000Z"
+    }
+  },
+  {
+    "id": "page-produktion",
+    "slug": "produktion",
+    "title": "Produktion & Handwerk",
+    "excerpt": "Viele Zirbenprodukte entstehen in unserer eigenen Fertigung in Kärnten – mit luftgetrocknetem Zirbenholz und spürbarer Manufakturqualität.",
+    "body": "Zeit für elegantes, markantes Zirben-Design.\n\nBei Zirbelino verbinden wir traditionelle Tischlerarbeit mit einem klaren Produktverständnis: echte Zirbe aus den Alpen, schonende Lufttrocknung und sorgfältige Verarbeitung. Viele Stücke entstehen in unserer eigenen Fertigung in Kärnten.\n\nWir achten auf PEFC-bezogene Herkunft, sichtbare Maserung und den typischen Duft des Holzes. Statt anonymer Massenware stehen nachvollziehbare Materialien und Handwerk im Mittelpunkt.\n\nVon frisch gehobelten Zirbenspänen über Massivholzstücke bis zu fertigen Kissen und Wohnaccessoires – Produktion bedeutet bei uns: Herkunft zeigen, Qualität prüfen und Produkte schaffen, die Alltag und Geschenk zugleich sein können.",
+    "type": "craft",
+    "seo": {
+      "title": "Produktion | Zirbelino",
+      "description": "Entdecken Sie unsere Zirbenprodukte aus nachhaltigem, massivem Holz, gefertigt in traditioneller Handwerkskunst in Klagenfurt.",
+      "canonicalUrl": "https://www.zirbenprodukte.at/produktion"
+    },
+    "source": {
+      "system": "zirbenprodukte.at-public",
+      "originalUrl": "https://www.zirbenprodukte.at/produktion",
+      "importedAt": "2026-08-08T20:10:00.000Z"
+    }
+  },
+  {
+    "id": "page-die-zirbe",
+    "slug": "die-zirbe",
+    "title": "Die Zirbe",
+    "excerpt": "Hintergrund zu Herkunft, Duft und Studienlage – ohne erfundene Wirkversprechen.",
+    "body": "Die Zirbe (Pinus cembra) steht für alpine Herkunft, charakteristischen Duft und langsam gewachsenes Holz. Viele Menschen verbinden sie mit Bergwäldern, Almhütten und natürlichem Raumduft.\n\nStudienlage & Einordnung\nLaut den öffentlichen Angaben von Zirbelino wurde die Wirkung von Zirbenholz bisher kaum bis gar nicht wissenschaftlich belastbar untersucht. Es gibt keinen gesicherten Nachweis für gesundheitliche Wirkungen von Zirbenholz, Zirbenkissen, Zirbenspänen oder Zirbenöl.\n\nDeshalb formulieren wir bewusst keine medizinischen oder therapeutischen Versprechen. Stattdessen geht es um Material, Duft, Herkunft, Handwerk und Anwendung im Alltag.\n\nWas bleibt: echte Zirbe aus den Alpen, oft luftgetrocknet verarbeitet, und Produkte, die den Charakter des Holzes sichtbar und riechbar machen – als Kissen, Späne, Öl, Massivholzstücke oder saisonale Spezialitäten wie Zapfen und junge Bäume.",
+    "type": "knowledge",
+    "seo": {
+      "title": "Zirbenholz | Studienlage & Wissen | Zirbelino",
+      "description": "Erfahren Sie mehr über Herkunft, Duft und die wissenschaftliche Einordnung von Zirbenholz – ohne erfundene Wirkversprechen.",
+      "canonicalUrl": "https://www.zirbenprodukte.at/zirbenholz"
+    },
+    "source": {
+      "system": "zirbenprodukte.at-public",
+      "originalUrl": "https://www.zirbenprodukte.at/zirbenholz",
+      "importedAt": "2026-08-08T20:10:00.000Z"
+    }
+  },
+  {
+    "id": "page-versand",
+    "slug": "versand",
+    "title": "Versand & Lieferung",
+    "excerpt": "Versandinformationen für Österreich und weitere Lieferländer – inklusive Kostenhinweisen ab dem öffentlichen Shop.",
+    "body": "Versandkosten & Lieferung\n\nFür aktuelle Versandkosten und Lieferbedingungen gilt die offizielle Service-Seite des Shops. In der Demo übernehmen wir die öffentlich kommunizierten Kernaussagen:\n\nÖsterreich\n• ab 70,00 € Versand kostenlos\n• bis 69,99 € Versand für 4,90 €\n• Versandpartner u. a. DPD und Österreichische Post\n\nWeitere Hinweise\n• Lieferzeiten und Sonderfälle (z. B. Saisonware wie frische Zapfen oder lebende Bäume) können produktspezifisch abweichen.\n• Sendungsstatus prüfen Sie nach dem Versand über die Tracking-/Sendungsverfolgung.\n\nDiese Demo-Seite ersetzt keine verbindliche Bestellabwicklung. Maßgeblich bleibt die aktuelle Angabe auf zirbenprodukte.at/versandkosten.",
+    "type": "shipping",
+    "seo": {
+      "title": "Versandkosten | Zirbelino",
+      "description": "Erfahren Sie alles über unsere Versandkosten für Österreich, Deutschland und Italien. Kostenlose Lieferung ab 70 EUR.",
+      "canonicalUrl": "https://www.zirbenprodukte.at/versandkosten"
+    },
+    "source": {
+      "system": "zirbenprodukte.at-public",
+      "originalUrl": "https://www.zirbenprodukte.at/versandkosten",
+      "importedAt": "2026-08-08T20:10:00.000Z"
+    }
+  },
+  {
+    "id": "page-zahlung",
+    "slug": "zahlung",
+    "title": "Zahlung",
+    "excerpt": "Flexible Zahlungsarten: u. a. Kauf auf Rechnung, PayPal, Karten, Apple Pay, Amazon Pay und Vorkasse.",
+    "body": "Zahlung & IBAN\n\nIm öffentlichen Shop werden unter anderem folgende Zahlungsarten kommuniziert:\n\n• Kauf auf Rechnung\n• PayPal\n• Mastercard / Visa\n• Apple Pay\n• Amazon Pay\n• Vorkasse / Überweisung\n\nDetails zu IBAN, Zahlungsablauf und aktuellen Konditionen finden Sie auf der originalen Service-Seite. In dieser Demo werden Zahlungen nur simuliert – es finden keine echten Transaktionen statt.\n\nMaßgeblich: zirbenprodukte.at/zahlung",
+    "type": "payment",
+    "seo": {
+      "title": "Zahlung | Zirbelino",
+      "description": "Sichere und flexible Zahlungsmethoden bei Zirbelino: Rechnung, PayPal, Vorkasse, Kreditkarten und weitere Optionen.",
+      "canonicalUrl": "https://www.zirbenprodukte.at/zahlung"
+    },
+    "source": {
+      "system": "zirbenprodukte.at-public",
+      "originalUrl": "https://www.zirbenprodukte.at/zahlung",
+      "importedAt": "2026-08-08T20:10:00.000Z"
+    }
+  },
+  {
+    "id": "page-faq",
+    "slug": "faq",
+    "title": "FAQ – Fragen und Antworten",
+    "excerpt": "Kurze Antworten zu Versand, Zahlung, Zirbenprodukten und Service – ohne Chrome-Reste aus dem alten Import.",
+    "body": "Häufige Fragen\n\nWie schnell wird geliefert?\nViele Standardartikel werden mit kurzen Lieferzeiten kommuniziert. Saisonware und lebende Pflanzen können abweichen.\n\nAb wann ist der Versand kostenlos?\nFür Österreich gilt öffentlich: ab 70,00 € Versand kostenlos, darunter 4,90 €.\n\nWelche Zahlungsarten gibt es?\nUnter anderem Rechnung, PayPal, Karten, Apple Pay, Amazon Pay und Vorkasse.\n\nGibt es eine Geld-zurück-Garantie?\nÖffentlich kommuniziert wird ein auf 100 Tage verlängertes Widerrufsrecht.\n\nWirkt Zirbenholz gesundheitlich?\nNein – eine wissenschaftlich belegte Wirkung ist nicht nachgewiesen. Wir sprechen über Duft, Material und Herkunft.\n\nWoher kommen die Produkte?\nZirbelino betont regionale Fertigung in Kärnten und Zirbenholz aus den Alpen mit PEFC-Bezug.\n\nWeitere Detailfragen beantwortet das Team unter hallo@zirbenprodukte.at oder telefonisch unter +43 463 27 60 12.",
+    "type": "faq",
+    "seo": {
+      "title": "FAQ | Zirbelino",
+      "description": "Finden Sie Antworten auf häufige Fragen zu Zirbenprodukten, Versand, Zahlung und Service.",
+      "canonicalUrl": "https://www.zirbenprodukte.at/faq"
+    },
+    "source": {
+      "system": "zirbenprodukte.at-public",
+      "originalUrl": "https://www.zirbenprodukte.at/faq",
+      "importedAt": "2026-08-08T20:10:00.000Z"
+    }
+  },
+  {
+    "id": "page-impressum",
+    "slug": "impressum",
+    "title": "Impressum",
+    "excerpt": "Anbieterkennzeichnung der KISSEN1 Zirbenprodukte GmbH gemäß österreichischem Recht.",
+    "body": "Informationspflicht laut §5 E-Commerce Gesetz, §14 Unternehmensgesetzbuch, §63 Gewerbeordnung und Offenlegungspflicht laut §25 Mediengesetz.\n\nKISSEN1 Zirbenprodukte GmbH\nZiegeleistraße 29\n9020 Klagenfurt am Wörthersee\n\nFirmenbuchnummer: 525241p\nFirmenbuchgericht: Landesgericht Klagenfurt\nUSt-IdNr. Österreich: ATU75097814\nEORI-Nummer: ATEOS1000102486\nGeschäftsführer: Daniel Abart\nBeteiligungsverhältnisse: Daniel Abart (100%)\n\nKontakt\nE-Mail: hallo@zirbenprodukte.at\nTelefon: +43 (0) 463 27 60 12\nWhatsApp: +43 463 27 60 12\n\nAufsichtsbehörde/Gewerbebehörde: Magistrat Klagenfurt\nBerufsrecht: Gewerbeordnung – www.ris.bka.gv.at\n\nVerpackung / Entpflichtung\nARA-Lizenznummer: 22707\nLUCID: DE4894822306698\nWEEE-Reg.-Nr.: DE 79966594\nMitglied der Wirtschaftskammer Österreich: 6158050\n\nEU-Streitschlichtung\nVerbraucher haben die Möglichkeit, Beschwerden an die Online-Streitbeilegungsplattform der EU zu richten:\nhttps://consumer-redress.ec.europa.eu/index_de\nWir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.\n\nRechtlicher Hinweis zu Zirbenholz\nEine Wirkung zu Zirbenholz ist wissenschaftlich nicht erwiesen und allgemein umstritten.\n\nDemo-Hinweis: Diese Seite fasst öffentliche Impressumsangaben für die Vorschaudemo zusammen. Maßgeblich bleibt das Original unter zirbenprodukte.at/impressum.",
+    "type": "legal",
+    "seo": {
+      "title": "Impressum | Zirbelino",
+      "description": "Impressum und Anbieterkennzeichnung der KISSEN1 Zirbenprodukte GmbH.",
+      "canonicalUrl": "https://www.zirbenprodukte.at/impressum"
+    },
+    "source": {
+      "system": "zirbenprodukte.at-public",
+      "originalUrl": "https://www.zirbenprodukte.at/impressum",
+      "importedAt": "2026-08-08T20:10:00.000Z"
+    }
+  },
+  {
+    "id": "page-datenschutz",
+    "slug": "datenschutz",
+    "title": "Datenschutz",
+    "excerpt": "Kurzüberblick zum Datenschutz – vollständige, aktuelle Fassung auf der Originalseite.",
+    "body": "Datenschutz bei Zirbelino\n\nDer Schutz personenbezogener Daten ist ein zentraler Bestandteil eines sicheren Online-Einkaufs. Im öffentlichen Shop werden unter anderem SSL-Verschlüsselung, DSGVO-konforme Verarbeitung und transparente Kontaktwege kommuniziert.\n\nIn dieser Demo-Umgebung werden keine echten Bestellungen ausgeführt und Newsletter-Anmeldungen nur simuliert. Für die verbindliche Datenschutzinformation gilt ausschließlich die aktuelle Fassung auf der Originalseite:\n\nhttps://www.zirbenprodukte.at/datenschutz\n\nDort finden Sie Angaben zu Verantwortlichem, Verarbeitungszwecken, Rechtsgrundlagen, Speicherdauer, Empfängern, Cookies sowie Ihren Rechten als betroffene Person.",
+    "type": "legal",
+    "seo": {
+      "title": "Datenschutz | Zirbelino",
+      "description": "Informationen zum Datenschutz bei Zirbelino. Maßgeblich ist die aktuelle Originalfassung.",
+      "canonicalUrl": "https://www.zirbenprodukte.at/datenschutz"
+    },
+    "source": {
+      "system": "zirbenprodukte.at-public",
+      "originalUrl": "https://www.zirbenprodukte.at/datenschutz",
+      "importedAt": "2026-08-08T20:10:00.000Z"
+    }
+  },
+  {
+    "id": "page-agb",
+    "slug": "agb",
+    "title": "AGB & Widerruf",
+    "excerpt": "Allgemeine Geschäftsbedingungen und Hinweise zum Widerruf – mit Verweis auf die verbindliche Originalfassung.",
+    "body": "AGB & Widerrufsrecht\n\nFür Bestellungen im Originalshop gelten die AGB der KISSEN1 Zirbenprodukte GmbH. Öffentlich kommuniziert wird unter anderem ein auf 100 Tage verlängertes Widerrufsrecht.\n\nDiese Demo-Seite dient nur der Orientierung und ersetzt keine verbindlichen Vertragsbedingungen. Bitte lesen Sie vor einem echten Kauf die aktuellen AGB und Widerrufsbelehrung auf zirbenprodukte.at.\n\nWichtige Demo-Hinweise\n• In dieser Vorschaudemo werden keine echten Bestellungen ausgeführt.\n• Preise, Lieferzeiten und Konditionen können sich ändern.\n• Rechtlich maßgeblich sind immer die aktuellen Angaben im Live-Shop.\n\nKontakt bei Fragen: hallo@zirbenprodukte.at · +43 463 27 60 12",
+    "type": "legal",
+    "seo": {
+      "title": "AGB & Widerruf | Zirbelino",
+      "description": "Hinweise zu AGB und Widerrufsrecht. Maßgeblich ist die aktuelle Originalfassung im Live-Shop.",
+      "canonicalUrl": "https://www.zirbenprodukte.at/agb"
+    },
+    "source": {
+      "system": "zirbenprodukte.at-public",
+      "originalUrl": "https://www.zirbenprodukte.at/agb",
+      "importedAt": "2026-08-08T20:10:00.000Z"
+    }
+  },
+  {
+    "id": "page-kontakt",
+    "slug": "kontakt",
+    "title": "Kontakt",
+    "excerpt": "Persönlicher Service aus Kärnten – per E-Mail, Telefon oder WhatsApp.",
+    "body": "Kontakt\n\nKISSEN1 Zirbenprodukte GmbH\nZiegeleistraße 29\n9020 Klagenfurt am Wörthersee\n\nE-Mail: hallo@zirbenprodukte.at\nTelefon: +43 (0) 463 27 60 12\nWhatsApp: +43 463 27 60 12\n\nHinweis: Außerhalb der Geschäftszeiten kann eine digitale Telefonassistenz abheben; Auskünfte sind dann nicht immer fehlerfrei.\n\nBei Fragen zur Lieferung prüfen Sie bitte zuerst die Sendungsverfolgung. Für allgemeine Anliegen erreichen Sie das Team unter den oben genannten Kontaktdaten.\n\nDemo-Hinweis: Formulare in dieser Vorschaudemo versenden keine echten Nachrichten.",
+    "type": "contact",
+    "seo": {
+      "title": "Kontakt | Zirbelino",
+      "description": "Kontaktieren Sie Zirbelino per E-Mail, Telefon oder WhatsApp.",
+      "canonicalUrl": "https://www.zirbenprodukte.at/kontakt"
+    },
+    "source": {
+      "system": "zirbenprodukte.at-public",
+      "originalUrl": "https://www.zirbenprodukte.at/kontakt",
+      "importedAt": "2026-08-08T20:10:00.000Z"
+    }
+  },
+  {
+    "id": "page-zertifizierung",
+    "slug": "zertifizierung",
+    "title": "Zertifizierung",
+    "excerpt": "Hinweise zu PEFC, Bio-Zertifizierung und Trusted Shops – soweit öffentlich ausgewiesen.",
+    "body": "Zertifizierung & Vertrauen\n\nZirbelino kommuniziert öffentlich unter anderem:\n\n• PEFC-bezogene Herkunft für Zirbenholz (nachhaltige Waldwirtschaft / kontrollierte Quellen)\n• Bio-bezogene Ausweise für ausgewählte Produkte (z. B. Bio-Zirbenöl; Zertifikatsangaben im Impressum)\n• Langjährige Trusted-Shops-Zertifizierung mit öffentlicher Bewertungsnote\n\nAktuelle Zertifikatsnummern und Detailangaben entnehmen Sie bitte dem Impressum und den jeweiligen Produktseiten im Live-Shop.\n\nRechtlicher Hinweis\nEine Wirkung zu Zirbenholz ist wissenschaftlich nicht erwiesen. Zertifizierungen betreffen Herkunft, Verarbeitung oder Einkaufssicherheit – nicht medizinische Versprechen.",
+    "type": "other",
+    "seo": {
+      "title": "Zertifizierung | Zirbelino",
+      "description": "Informationen zu PEFC, Bio-Ausweisen und Trusted Shops bei Zirbelino.",
+      "canonicalUrl": "https://www.zirbenprodukte.at/impressum"
+    },
+    "source": {
+      "system": "zirbenprodukte.at-public",
+      "originalUrl": "https://www.zirbenprodukte.at/impressum",
+      "importedAt": "2026-08-08T20:10:00.000Z"
+    }
+  }
+]

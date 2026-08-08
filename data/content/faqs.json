@@ -1,0 +1,13 @@
+[
+  {
+    "id": "faq-source",
+    "question": "Wo finde ich die offiziellen FAQ?",
+    "answer": "Die FAQ-Inhalte stammen aus der öffentlichen FAQ-Seite von zirbenprodukte.at und sind in der Demo unter /faq verfügbar.",
+    "category": "service",
+    "source": {
+      "system": "zirbenprodukte.at-public",
+      "originalUrl": "https://www.zirbenprodukte.at/faq",
+      "importedAt": "2026-08-08T19:39:11.983Z"
+    }
+  }
+]

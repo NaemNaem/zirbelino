@@ -1,0 +1,52 @@
+[
+  {
+    "id": "cat-schlafen",
+    "slug": "schlafen",
+    "name": "Schlafen",
+    "description": "Zirbenkissen und Schlafprodukte aus echter Zirbe.",
+    "source": {
+      "system": "demo-curated",
+      "originalUrl": "https://www.zirbenprodukte.at/zirbenkissen"
+    }
+  },
+  {
+    "id": "cat-duft",
+    "slug": "wohnen-duft",
+    "name": "Wohnen & Duft",
+    "description": "Zirbenspäne, Öl, Diffuser und Raumduft.",
+    "source": {
+      "system": "demo-curated",
+      "originalUrl": "https://www.zirbenprodukte.at/zirbenspaene"
+    }
+  },
+  {
+    "id": "cat-kueche",
+    "slug": "kueche-genuss",
+    "name": "Küche & Genuss",
+    "description": "Brotdosen, Genuss und Küchenprodukte aus Zirbe.",
+    "source": {
+      "system": "demo-curated",
+      "originalUrl": "https://www.zirbenprodukte.at/zirbenbrotdose"
+    }
+  },
+  {
+    "id": "cat-geschenke",
+    "slug": "geschenke",
+    "name": "Geschenke",
+    "description": "Geschenkideen und Erlebnisboxen rund um die Zirbe.",
+    "source": {
+      "system": "demo-curated",
+      "originalUrl": "https://www.zirbenprodukte.at/zirbe-geschenkideen-erlebnisbox"
+    }
+  },
+  {
+    "id": "cat-garten",
+    "slug": "natur-garten",
+    "name": "Natur & Garten",
+    "description": "Zirbenbäume, Zapfen und Pflege.",
+    "source": {
+      "system": "demo-curated",
+      "originalUrl": "https://www.zirbenprodukte.at/zirben-zum-einpflanzen"
+    }
+  }
+]

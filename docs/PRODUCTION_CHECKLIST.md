@@ -1,0 +1,29 @@
+# Production Checklist
+
+- [ ] bestehendes Shopsystem identifiziert
+- [ ] Datenexport geprüft
+- [ ] Source Adapter erstellt
+- [ ] Produkte migriert
+- [ ] Varianten migriert
+- [ ] Bilder migriert
+- [ ] Kunden migriert
+- [ ] Bestellungen migriert
+- [ ] Bewertungen migriert
+- [ ] Payment angebunden
+- [ ] Versand angebunden
+- [ ] E-Mails angebunden
+- [ ] Domain vorbereitet
+- [ ] SSL aktiv
+- [ ] Analytics aktiv
+- [ ] Consent aktiv
+- [ ] SEO Redirects getestet
+- [ ] Sitemap erstellt
+- [ ] robots.txt geprüft
+- [ ] Checkout getestet
+- [ ] Testbestellung durchgeführt
+- [ ] Mobile getestet
+- [ ] Performance geprüft
+- [ ] Backup vorhanden
+- [ ] Rollback-Plan vorhanden
+- [ ] `NEXT_PUBLIC_DEMO_MODE=false`
+- [ ] Count validation report grün
