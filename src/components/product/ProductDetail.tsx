@@ -137,10 +137,12 @@ export function ProductDetail({
         ) : null}
       </header>
 
-      <div className="mt-8 grid gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-start">
-        <ProductGallery images={product.images} productName={product.name} />
+      <div className="mt-8 grid min-w-0 gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-start">
+        <div className="min-w-0 max-w-full">
+          <ProductGallery images={product.images} productName={product.name} />
+        </div>
 
-        <div>
+        <div className="min-w-0">
           <div className="space-y-2 border border-[var(--color-border)] bg-[var(--color-surface)] p-5">
             {product.compareAtPrice ? (
               <p className="text-sm text-[var(--color-text-muted)]">

@@ -28,7 +28,7 @@ export function ProductGallery({
 
   if (!gallery.length) {
     return (
-      <div className="flex aspect-[4/3] items-center justify-center bg-[var(--color-surface-deep)] text-sm text-[var(--color-text-muted)] sm:aspect-square">
+      <div className="flex aspect-[4/3] w-full items-center justify-center bg-[var(--color-surface-deep)] text-sm text-[var(--color-text-muted)] sm:aspect-square">
         Kein Bild verfügbar
       </div>
     );
@@ -55,17 +55,17 @@ export function ProductGallery({
   };
 
   return (
-    <div className="relative">
+    <div className="relative w-full min-w-0 max-w-full overflow-hidden">
       <div
         ref={trackRef}
-        className="flex aspect-[4/3] snap-x snap-mandatory overflow-x-auto scroll-smooth touch-pan-y [-ms-overflow-style:none] [scrollbar-width:none] sm:aspect-square [&::-webkit-scrollbar]:hidden"
+        className="flex w-full aspect-[4/3] snap-x snap-mandatory overflow-x-auto scroll-smooth touch-pan-y [-ms-overflow-style:none] [scrollbar-width:none] sm:aspect-square [&::-webkit-scrollbar]:hidden"
         onTouchStart={onTouchStart}
         onTouchEnd={onTouchEnd}
       >
         {gallery.map((asset, slideIndex) => (
           <div
             key={asset.id}
-            className="relative h-full min-w-full shrink-0 snap-center bg-[var(--color-surface)]"
+            className="relative aspect-[4/3] w-full min-w-0 shrink-0 grow-0 basis-full snap-center bg-[var(--color-surface)] sm:aspect-square"
             aria-hidden={slideIndex !== index}
           >
             <Image

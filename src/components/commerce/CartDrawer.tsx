@@ -38,6 +38,7 @@ export function CartDrawer() {
   const subtotal = lines.reduce((sum, line) => sum + line.lineTotal, 0);
   const remaining = Math.max(FREE_SHIPPING_THRESHOLD - subtotal, 0);
   const progress = Math.min((subtotal / FREE_SHIPPING_THRESHOLD) * 100, 100);
+  const isEmpty = cart.items.length === 0;
 
   return (
     <div className="fixed inset-0 z-50 bg-black/40" onClick={() => setCartOpen(false)}>
@@ -120,11 +121,17 @@ export function CartDrawer() {
             <span>Zwischensumme</span>
             <strong>{formatMoney({ amount: subtotal, currency: "EUR" })}</strong>
           </div>
-          <div onClick={() => setCartOpen(false)}>
-            <ButtonLink href="/kasse" className="w-full">
+          {isEmpty ? (
+            <Button className="w-full" disabled aria-disabled="true">
               Zur Kasse
-            </ButtonLink>
-          </div>
+            </Button>
+          ) : (
+            <div onClick={() => setCartOpen(false)}>
+              <ButtonLink href="/kasse" className="w-full">
+                Zur Kasse
+              </ButtonLink>
+            </div>
+          )}
           <Button variant="secondary" className="w-full" onClick={() => setCartOpen(false)}>
             Weiter einkaufen
           </Button>
