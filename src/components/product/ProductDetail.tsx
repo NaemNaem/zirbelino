@@ -91,7 +91,7 @@ export function ProductDetail({
   }));
 
   return (
-    <main className="mx-auto max-w-7xl px-4 py-8 pb-28 md:px-6 md:py-12 md:pb-12">
+    <main className="relative mx-auto w-full min-w-0 max-w-7xl overflow-x-clip px-4 py-8 pb-28 md:px-6 md:py-12 md:pb-12">
       <nav
         aria-label="Brotkrumen"
         className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs tracking-wide text-[var(--color-text-muted)]"
@@ -405,31 +405,40 @@ export function ProductDetail({
         imagesByCategory={categoryImages}
       />
 
-      <div className="fixed inset-x-0 bottom-0 z-30 border-t border-[var(--color-border)] bg-[var(--color-surface)]/95 p-3 backdrop-blur md:hidden">
-        <div className="mb-2 flex items-center justify-between gap-3 text-sm">
-          <span className="font-semibold">{formatPieceLabel(qty)}</span>
-          <div className="flex gap-2">
-            <button
-              type="button"
-              aria-label="Menge verringern"
-              onClick={() => setQuantity(qty - 1)}
-              className="flex h-8 w-8 items-center justify-center rounded-full border border-[var(--color-border)]"
-            >
-              −
-            </button>
-            <button
-              type="button"
-              aria-label="Menge erhöhen"
-              onClick={() => setQuantity(qty + 1)}
-              className="flex h-8 w-8 items-center justify-center rounded-full border border-[var(--color-border)]"
-            >
-              +
-            </button>
+      <div className="fixed bottom-0 left-0 right-0 z-30 w-full max-w-[100vw] border-t border-[var(--color-border)] bg-[var(--color-surface)]/95 px-3 pt-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] backdrop-blur md:hidden">
+        <div className="mx-auto w-full min-w-0 max-w-lg">
+          <div className="mb-2 flex min-w-0 items-center justify-between gap-3 text-sm">
+            <span className="min-w-0 truncate font-semibold">
+              {formatPieceLabel(qty)}
+            </span>
+            <div className="flex shrink-0 gap-2">
+              <button
+                type="button"
+                aria-label="Menge verringern"
+                onClick={() => setQuantity(qty - 1)}
+                className="flex h-8 w-8 items-center justify-center rounded-full border border-[var(--color-border)]"
+              >
+                −
+              </button>
+              <button
+                type="button"
+                aria-label="Menge erhöhen"
+                onClick={() => setQuantity(qty + 1)}
+                className="flex h-8 w-8 items-center justify-center rounded-full border border-[var(--color-border)]"
+              >
+                +
+              </button>
+            </div>
           </div>
+          <Button
+            className="w-full min-w-0 px-3 text-[0.9rem] sm:text-sm"
+            onClick={() => add(true)}
+          >
+            <span className="truncate">
+              In den Warenkorb · {formatMoney(product.price)}
+            </span>
+          </Button>
         </div>
-        <Button className="w-full" onClick={() => add(true)}>
-          In den Warenkorb · {formatMoney(product.price)}
-        </Button>
       </div>
     </main>
   );

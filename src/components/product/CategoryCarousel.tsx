@@ -23,9 +23,9 @@ export function CategoryCarousel({
   };
 
   return (
-    <section className="mt-16 border-t border-[var(--color-border)] pt-14">
+    <section className="mt-16 min-w-0 max-w-full border-t border-[var(--color-border)] pt-14">
       <div className="mb-6 flex items-end justify-between gap-4">
-        <div>
+        <div className="min-w-0">
           <p className="text-[0.72rem] font-bold uppercase tracking-[0.22em] text-[var(--color-wood)]">
             Entdecken
           </p>
@@ -33,7 +33,7 @@ export function CategoryCarousel({
             Produktkategorien
           </h2>
         </div>
-        <div className="hidden gap-2 md:flex">
+        <div className="hidden shrink-0 gap-2 md:flex">
           <button
             type="button"
             onClick={() => scrollBy(-1)}
@@ -55,7 +55,7 @@ export function CategoryCarousel({
 
       <div
         ref={scrollerRef}
-        className="flex snap-x snap-mandatory gap-4 overflow-x-auto pb-2 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+        className="flex max-w-full snap-x snap-mandatory gap-4 overflow-x-auto overscroll-x-contain pb-2 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
       >
         {categories.map((category) => {
           const image = imagesByCategory[category.id];
